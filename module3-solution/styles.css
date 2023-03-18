@@ -1,0 +1,24 @@
+.visible-xs {
+  visibility: hidden;
+  border-color: wheat;
+  background: white;
+}
+.navbar-nav-scroll {
+  height: 8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: gray;
+}
+
+.nav-item a {
+  color: white;
+}
+
+/* Not XS screen */
+@media (max-width: 576px) {
+  .visible-xs {
+    visibility: visible;
+  }
+}
